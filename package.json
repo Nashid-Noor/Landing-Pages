@@ -1,0 +1,18 @@
+{
+  "name": "landing-pages",
+  "version": "1.0.0",
+  "description": "All my Landing pages",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "live": "live-server",
+    "start": "npm-run-all --parallel live watch:sass"
+  },
+  "author": "Nashid Noor",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^7.0.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
